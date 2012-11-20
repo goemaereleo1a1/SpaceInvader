@@ -6,7 +6,7 @@ public class Alien extends Sprite {
 
 	public Alien(Bitmap bitmap, float x, float y) {
 		super(bitmap, x, y);
-		// TODO Auto-generated constructor stub
+		// TODO Auto-generated consthehructor stub
 	}
 
 	@Override
