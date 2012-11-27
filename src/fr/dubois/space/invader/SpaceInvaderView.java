@@ -107,6 +107,21 @@ public class SpaceInvaderView extends View {
 		this.setMeasuredDimension(x,y);
 	}
 
+
+
+	public Bitmap loadImage(int res) {
+		Drawable drawable = this.getContext().getResources().getDrawable(res);
+		int x=drawable.getIntrinsicWidth();
+		int y=drawable.getIntrinsicHeight();
+		
+		Bitmap bitmap = Bitmap.createBitmap(x, y, Bitmap.Config.ARGB_8888);
+	    Canvas canvas = new Canvas(bitmap);
+	   
+	    drawable.setBounds(0, 0, x, y);
+	    drawable.draw(canvas);
+	    
+	    return  bitmap;
+	}
 }
 
 
