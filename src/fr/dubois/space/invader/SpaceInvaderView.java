@@ -62,6 +62,7 @@ public class SpaceInvaderView extends View {
 		paint.setTextSize(36);
 		paint.setTextAlign(Paint.Align.CENTER);
 		text = "Texte";
+		alien = loadImage (R.drawable.alien1);
 		}
 
 
@@ -70,6 +71,11 @@ public class SpaceInvaderView extends View {
 
 
 
+
+	private Alien loadImage(int alien1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 	@Override
 	protected void onDraw(Canvas canvas) {
