@@ -11,8 +11,10 @@ public class Alien extends Sprite {
 
 	@Override
 	public void act() {
+		int x = 0;
 		// TODO Auto-generated method stub
-		
+		this.x = x+5;
+		this.x = x-5;
 	}
 
 }
